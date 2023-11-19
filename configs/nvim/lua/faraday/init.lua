@@ -1,8 +1,6 @@
 --Adds files (remap)
 require("faraday.remap")
 
-
-
 -- Tabbing
 -- Enable true tab behavior
 vim.o.tabstop = 2       -- Number of visual spaces per tab
