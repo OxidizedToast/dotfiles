@@ -1,0 +1,21 @@
+#
+# ~/.bashrc
+#
+
+# Custom Alias's
+alias vim="nvim"
+alias lock="swaylock"
+#edit file
+alias ef="fzf-tmux -p | xargs nvim"
+#view img
+alias img="sxiv"
+alias audio="~/helpful/audioControl.sh"
+alias ss="~/helpful/screenshot.sh"
+
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
