@@ -16,7 +16,7 @@ echo "Do you want to force push? Y/n "
 read force
 clear
 
-if ["$force" == "Y" || "$force" == "y"]; then
+if ["$force" == "Y" ] || [ "$force" == "y" ]; then
     git push --force origin $branch
 else
     git push origin $branch
