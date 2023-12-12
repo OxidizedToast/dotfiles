@@ -11,4 +11,13 @@ clear
 
 git add .
 git commit -m "$commitMSG"
+
+echo "Do you want to force push? Y/n"
+read force
+clear
+
+if ($force == "Y" || $force == "y"); then
+    git push --force origin $branch
+fi
+
 git push origin $branch
