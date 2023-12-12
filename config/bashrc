@@ -11,7 +11,7 @@ alias ef="fzf-tmux -p | xargs nvim"
 alias img="sxiv"
 alias audio="~/helpful/audioControl.sh"
 alias ss="~/helpful/screenshot.sh"
-
+alias dg="~/helpful/doGit.sh"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
