@@ -11,7 +11,7 @@ require('mason-lspconfig').setup({
   ensure_installed = {
 	  'tsserver', 'jdtls', 'clangd', 'bashls', 'cssls',
 	  'html', 'jsonls', 'intelephense', 'lua_ls',
-	  'rust_analyzer', 'pkgbuild_language_server', 'cmake', 'vimls',},
+	  'rust_analyzer', 'kotlin_language_server' , 'cmake', 'vimls',},
   handlers = {
     lsp_zero.default_setup,
   }

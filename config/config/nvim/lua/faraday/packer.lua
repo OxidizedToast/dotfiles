@@ -19,6 +19,10 @@ return require('packer').startup(function(use)
             vim.cmd('colorscheme carbonfox')
         end
   })
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
   use('andweeb/presence.nvim')
   use('ThePrimeagen/vim-be-good')
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
