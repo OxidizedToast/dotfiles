@@ -11,4 +11,4 @@ Colorscheme : Carbonfox, from https://github.com/EdenEast/nightfox.nvim#carbonfo
 
 Lualine theme: iceberg_dark, from https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#iceberg_dark
 
-
+Icons : https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/NerdFontsSymbolsOnly.zip
