@@ -9,6 +9,7 @@ alias lock="swaylock"
 alias ef="fzf-tmux -p | xargs nvim"
 #view img
 alias img="sxiv"
+alias video="vlc"
 alias audio="~/helpful/audioControl.sh"
 alias ss="~/helpful/screenshot.sh"
 alias dg="~/helpful/doGit.sh"
