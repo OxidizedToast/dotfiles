@@ -1,0 +1,31 @@
+/*
+  --backgroundColor: #292b2e;
+    --outlineColor: #c5c8c6;
+    --textColor: #fdf6e3;
+*/
+
+* {
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+#waybar {
+    background: #282a36;
+    color: #fdf6e3;
+    opacity: 0.9;
+}
+
+#workspaces button {
+    color: white;
+    padding: 0 4px;
+    border-style: inset;
+    border-color: #393c40;
+    transition: none;
+    
+}
+#workspaces button:hover {
+  background: #393c40;
+  border: #1a1a1a;
+  padding: 0 3px;
+}
