@@ -2,7 +2,6 @@
 #
 #
 #vlc
-#yay
 #Thunar
 #pulseaudio
 #neovim
@@ -17,4 +16,17 @@
 #btop
 #
 
-sudo pacman -S btop vlc yay Thunar pulseaudio neovim npm lua discord fzf git grim slurp puavcontrol
+clear
+
+sudo pacman -S btop vlc thunar pulseaudio neovim \
+npm lua discord fzf git grim slurp pavucontrol
+
+
+clear
+
+echo Done!
+echo "Make sure to install yay"
+
+sleep 3
+
+clear
