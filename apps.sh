@@ -14,12 +14,13 @@
 #slurp
 #puavcontrol 
 #btop
+#wofi
 #
-
+#
 clear
 
 sudo pacman -S btop vlc thunar pulseaudio neovim \
-npm lua discord fzf git grim slurp pavucontrol
+npm lua discord fzf git grim slurp pavucontrol wofi
 
 
 clear
