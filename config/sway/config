@@ -219,14 +219,13 @@ bindsym $mod+r mode "resize"
 bar {
 	swaybar_command waybar
     status_command TZ='America/Chicago' swaybar -t '%Y-%m-%d %H:%M:%S'
-  
 }
 
+# not sure what it changes but looks better
 hide_edge_borders smart
+
+# Hides the border (Blue border at top)
+default_border pixel
 
 
 include /etc/sway/config.d/*
-
-
-
-
