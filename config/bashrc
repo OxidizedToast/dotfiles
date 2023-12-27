@@ -2,6 +2,8 @@
 # ~/.bashrc
 #
 
+alias unixp="clear ; neofetch"
+
 # Custom Alias's
 alias vim="nvim"
 alias lock="swaylock"
@@ -13,6 +15,8 @@ alias video="vlc"
 alias audio="~/helpful/audioControl.sh"
 alias ss="~/helpful/screenshot.sh"
 alias dg="~/helpful/doGit.sh"
+alias note="~/helpful/note.sh"
+alias Note="~/helpful/note.sh"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
