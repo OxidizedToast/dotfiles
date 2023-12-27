@@ -14,7 +14,7 @@
 #grim
 #slurp
 #puavcontrol 
-#
+#btop
 #
 
-sudo pacman -S vlc yay Thunar pulseaudio neovim npm lua discord fzf git grim slurp puavcontrol
+sudo pacman -S btop vlc yay Thunar pulseaudio neovim npm lua discord fzf git grim slurp puavcontrol
