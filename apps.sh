@@ -20,7 +20,7 @@
 clear
 
 sudo pacman -S btop vlc thunar pulseaudio neovim \
-npm lua discord fzf git grim slurp pavucontrol wofi
+npm lua discord fzf git grim slurp pavucontrol wofi alacritty
 
 
 clear
