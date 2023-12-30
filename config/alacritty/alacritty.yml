@@ -16,6 +16,9 @@ draw_bold_text_with_bight_colors: true
 
 
 
+
+
+
 # Allows me to open terminal in same WD
 # (working dir)
 key_bindings:

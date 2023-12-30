@@ -17,6 +17,7 @@ alias ss="~/helpful/screenshot.sh"
 alias dg="~/helpful/doGit.sh"
 alias note="~/helpful/note.sh"
 alias Note="~/helpful/note.sh"
+alias ms="~/helpful/getMcShots.sh"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
