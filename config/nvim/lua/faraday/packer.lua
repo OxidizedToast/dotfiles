@@ -13,13 +13,19 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-  use({
-        'EdenEast/nightfox.nvim',
-        as = 'EdenEast',
-        config = function()
-            vim.cmd('colorscheme carbonfox')
-        end
-  })
+  -- Colorscheme
+  --use({
+  --      'EdenEast/nightfox.nvim',
+  --      as = 'EdenEast',
+  --      config = function()
+  --          vim.cmd('colorscheme carbonfox')
+  --      end
+  --})
+  -- Colorscheme
+  use "savq/melange-nvim"
+
+  
+  use 'nvim-tree/nvim-web-devicons'
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }

@@ -1,5 +1,5 @@
 function ColorMyPencils(color) 
-  color = color or "carbonfox"
+  color = color or "melange"
   vim.cmd.colorscheme(color)
 
 -- Uncomment to make background transparent 
