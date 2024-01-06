@@ -4,11 +4,12 @@ will be saved for the future and if I get a new computer.
 
 # Neovim
 
-![vim-rice 0 1](https://github.com/Faraday22/dotfiles/assets/115096700/c09d60d1-f321-4ac9-a2e3-b37921313780)
+![neovim-rice](https://github.com/Faraday22/dotfiles/assets/115096700/74cec7c5-ed23-437b-bff1-ac88873bbabf)
 
 
-Colorscheme : Carbonfox, from https://github.com/EdenEast/nightfox.nvim#carbonfox
 
-Lualine theme: iceberg_dark, from https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#iceberg_dark
+Colorscheme : Melange, from [https://github.com/EdenEast/nightfox.nvim#carbonfox](https://github.com/savq/melange-nvim)
 
-Icons : https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/NerdFontsSymbolsOnly.zip
+Lualine theme: je;ybeans, from [https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#iceberg_dark](https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#jellybeans)
+
+Icons : https://github.com/nvim-tree/nvim-web-devicons?tab=readme-ov-file
