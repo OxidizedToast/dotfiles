@@ -8,8 +8,8 @@ will be saved for the future and if I get a new computer.
 
 
 
-Colorscheme : Melange, from [https://github.com/EdenEast/nightfox.nvim#carbonfox](https://github.com/savq/melange-nvim)
+Colorscheme : Melange, from [Savq's melange](https://github.com/savq/melange-nvim)
 
-Lualine theme: je;ybeans, from [https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#iceberg_dark](https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#jellybeans)
+Lualine theme: jellybeans, from [Lualine jellybeans](https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#jellybeans)
 
 Icons : https://github.com/nvim-tree/nvim-web-devicons?tab=readme-ov-file
