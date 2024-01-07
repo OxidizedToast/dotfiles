@@ -18,3 +18,7 @@ Icons : https://github.com/nvim-tree/nvim-web-devicons?tab=readme-ov-file
 
 copied some code from https://github.com/afk-mario/dotfiles
 so heres your shout out :D
+
+# Wofi
+
+Gruv Box theme from https://github.com/joao-vitor-sr/wofi-themes-collection/blob/main/themes/gruvbox.css
