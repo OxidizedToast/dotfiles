@@ -5,25 +5,30 @@
 */
 
 * {
+    border: none;
+    border-radius: 0;
     font-size: 13px;
     font-family: 'JetBrains Mono', monospace;
 }
 
-
 #waybar {
-    background: #282a36;
-    color: #fdf6e3;
+    background: #1d2021;
+    color: #fdf1c7;
     opacity: 0.9;
 }
 
 #workspaces button {
-    color: white;
-    padding: 0 4px;
-    border-style: inset;
-    border-color: #393c40;
-    transition: none;
-    
+  padding: 0 4px;
+  background: transparent;
+  color: #fbf1c7;
+  border-bottom: 2px solid transparent;
 }
+
+#workspaces button.focused {
+  background: #181818;
+  border-bottom: 2px solid #d3869b;
+}
+
 #workspaces button:hover {
   background: #393c40;
   border: #1a1a1a;
@@ -35,3 +40,9 @@
   border: #1a1a1a;
   padding: 0 3px;
 }
+
+#custom-arch {
+  color: white;
+  background: #e91e63;
+}
+

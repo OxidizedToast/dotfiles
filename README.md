@@ -13,3 +13,8 @@ Colorscheme : Melange, from [https://github.com/EdenEast/nightfox.nvim#carbonfox
 Lualine theme: je;ybeans, from [https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#iceberg_dark](https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#jellybeans)
 
 Icons : https://github.com/nvim-tree/nvim-web-devicons?tab=readme-ov-file
+
+# Sway UI && Swaybar
+
+copied some code from https://github.com/afk-mario/dotfiles
+so heres your shout out :D
