@@ -2,6 +2,9 @@
 # ~/.bashrc
 #
 
+export VISUAL="nvim"
+export EDITOR="nvim"
+
 alias unixp="clear ; neofetch"
 
 # Custom Alias's
@@ -18,6 +21,8 @@ alias dg="~/helpful/doGit.sh"
 alias note="~/helpful/note.sh"
 alias Note="~/helpful/note.sh"
 alias ms="~/helpful/getMcShots.sh"
+alias mlogin="~/personal/AutoMCLog/main.sh"
+alias clock="peaclock"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
