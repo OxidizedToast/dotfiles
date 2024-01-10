@@ -8,9 +8,6 @@
 # Number lock
 input type:keyboard xkb_numlock enabled
 
-# clipman for clipboard stuff
-exec wl-paste -t text --watch clipman store --no-persist
-
 # Notifications
 exec mako
 
@@ -19,6 +16,10 @@ blur enable
 blur_passes 2
 
 shadows enable
+
+# Curves windows & Can be any number
+corner_radius 10
+
 
 #Font
 font pango:JetBrains Mono 9
@@ -46,7 +47,7 @@ set $menu wofi --show run
 
 
 #Wallpaper Setting
-output * bg ~/Wallpapers/Bridge.jpg fill
+output * bg ~/Wallpapers/arch_fill.png fill
 
 #
 # Example configuration:
@@ -89,7 +90,7 @@ output * bg ~/Wallpapers/Bridge.jpg fill
     # Start a terminal
     bindsym $mod+Return exec $term
     
-
+    exec superclipboard
     # clipboard to run in background
     # ###
     # Not fully working atm

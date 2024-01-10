@@ -2,9 +2,6 @@
 # ~/.bashrc
 #
 
-export VISUAL="nvim"
-export EDITOR="nvim"
-
 alias unixp="clear ; neofetch"
 
 # Custom Alias's
@@ -30,3 +27,7 @@ alias clock="peaclock"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
+
+export VISUAL="nvim"
+export EDITOR="nvim"
+
