@@ -11,10 +11,14 @@ input type:keyboard xkb_numlock enabled
 # clipman for clipboard stuff
 exec wl-paste -t text --watch clipman store --no-persist
 
-
 # Notifications
 exec mako
 
+#Swayfx
+blur enable
+blur_passes 2
+
+shadows enable
 
 #Font
 font pango:JetBrains Mono 9
@@ -258,7 +262,7 @@ set $black   #000000
 
 
 #class                   $border  $bg    $text  $indicator  $child_border
-client.focused           $bg02    $bg02  $fg01  $white        $fg02
+client.focused           $bg02    $bg02  $fg01  $fg02        $fg02
 client.focused_inactive  $bg01    $bg01  $fg01  $bg01       $bg02
 client.unfocused         $bg01    $bg01  $fg02  $white      $bg01
 client.urgent            $bg02    $bg02  $fg01  $red        $red
