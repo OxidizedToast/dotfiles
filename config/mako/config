@@ -1,0 +1,10 @@
+font=JetBrains Mono
+icon-path=/usr/share/icons/hicolor
+icons=0
+max-icon-size=16
+markup=0
+background-color=#282828
+border-color=#fe8019
+text-color=#d5c4a1
+actions=0
+default-timeout=5000
