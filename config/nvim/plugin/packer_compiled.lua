@@ -74,12 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  EdenEast = {
-    config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\0" },
-    loaded = true,
-    path = "/home/faraday/.local/share/nvim/site/pack/packer/start/EdenEast",
-    url = "https://github.com/EdenEast/nightfox.nvim"
-  },
   LuaSnip = {
     loaded = true,
     path = "/home/faraday/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -183,10 +177,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: EdenEast
-time([[Config for EdenEast]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\0", "config", "EdenEast")
-time([[Config for EdenEast]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

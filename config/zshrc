@@ -1,0 +1,47 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(
+  git
+  zsh-autosuggestions
+  colored-man-pages
+  rust
+)
+
+
+
+
+# Set default editor
+export EDITOR="nvim"
+export VISUAL="nvim"
+
+# Custom Aliases
+alias unixp="clear ; neofetch"
+alias vim="nvim"
+alias lock="swaylock"
+alias ef="fzf-tmux -p | xargs nvim"
+alias img="sxiv"
+alias video="vlc"
+alias audio="~/helpful/audioControl.sh"
+alias ss="~/helpful/screenshot.sh"
+alias dg="~/helpful/doGit.sh"
+alias note="~/helpful/note.sh"
+alias Note="~/helpful/note.sh"
+alias ms="~/helpful/getMcShots.sh"
+alias mlogin="~/personal/AutoMCLog/main.sh"
+alias clock="peaclock"
+alias passgen="password_gen"
+alias lz="eza --icons -F -l"
+
+# Check if running interactively before executing further commands
+[[ $- != *i* ]] && return
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+
+
+
+source $ZSH/oh-my-zsh.sh

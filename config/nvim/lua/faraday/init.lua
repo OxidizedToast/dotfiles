@@ -1,9 +1,6 @@
 --Adds files (remap)
 require("faraday.remap")
-
-
-
-
+--require("lazy.nvim").setup(plugins, opts)
 
 -- Tabbing
 -- Enable true tab behavior

@@ -55,7 +55,7 @@ set $menu wofi --show run
 
 
 #Wallpaper Setting
-output * bg ~/Wallpapers/arch_fill.png fill
+output * bg ~/Wallpapers/TrainJP.jpg fill
 
 #
 # Example configuration:

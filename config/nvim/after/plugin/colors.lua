@@ -1,4 +1,5 @@
 function ColorMyPencils(color) 
+  vim.opt.termguicolors = true
   color = color or "melange"
   vim.cmd.colorscheme(color)
 
