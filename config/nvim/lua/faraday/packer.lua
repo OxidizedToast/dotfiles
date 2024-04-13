@@ -7,24 +7,16 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use "nvim-lua/plenary.nvim"
 
   use {
         'nvim-telescope/telescope.nvim', tag = '0.1.5',
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-  -- Colorscheme
-  --use({
-  --      'EdenEast/nightfox.nvim',
-  --      as = 'EdenEast',
-  --      config = function()
-  --          vim.cmd('colorscheme carbonfox')
-  --      end
-  --})
-  -- Colorscheme
   use "savq/melange-nvim"
 
-  
+
   use 'nvim-tree/nvim-web-devicons'
   use {
     'nvim-lualine/lualine.nvim',
@@ -34,7 +26,11 @@ return require('packer').startup(function(use)
   use('ThePrimeagen/vim-be-good')
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
-  use('theprimeagen/harpoon')
+  use {
+    'ThePrimeagen/harpoon',
+    branch = "harpoon2",
+    requires= { {"nvim-lua/plenary.nvim"} }
+  }
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
 
