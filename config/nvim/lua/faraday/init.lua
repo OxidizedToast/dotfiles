@@ -18,14 +18,10 @@ vim.o.mouse = ''
 -- Arrow Keys
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
-
--- Only effects normal mode
--- to add copy and paste and 
--- make n V or I
---map('n', '<Up>', '<NOP>', opts)
---map('n', '<Down>', '<NOP>', opts)
---map('n', '<Left>', '<NOP>', opts)
---map('n', '<Right>', '<NOP>', opts)
+map('n', '<Up>', '<NOP>', opts)
+map('n', '<Down>', '<NOP>', opts)
+map('n', '<Left>', '<NOP>', opts)
+map('n', '<Right>', '<NOP>', opts)
 
 -- Font
 vim.o.guifont = 'JetBrainsMono:h12'
@@ -34,5 +30,3 @@ vim.o.guifont = 'JetBrainsMono:h12'
 vim.o.number = true
 vim.o.relativenumber = true
 vim.cmd('syntax on')
-
-

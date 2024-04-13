@@ -12,11 +12,17 @@ plugins=(
 )
 
 
-
-
 # Set default editor
 export EDITOR="nvim"
 export VISUAL="nvim"
+
+# For java windows
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# Bluetooth
+alias start_bluetooth="sudo systemctl start bluetooth && sudo systemctl enable bluetooth"
+alias stop_bluetooth="sudo systemctl stop bluetooth && sudo systemctl disable bluetooth"
+
 
 # Custom Aliases
 alias rgb="openrgb &"
@@ -29,13 +35,13 @@ alias video="vlc"
 alias audio="~/helpful/audioControl.sh"
 alias ss="~/helpful/screenshot.sh"
 alias dg="~/helpful/doGit.sh"
-alias note="~/helpful/note.sh"
-alias Note="~/helpful/note.sh"
 alias ms="~/helpful/getMcShots.sh"
 alias mlogin="~/personal/AutoMCLog/main.sh"
 alias clock="peaclock"
 alias passgen="password_gen"
 alias lz="eza --icons -F -l"
+alias windows="~/helpful/windows.sh"
+alias cat="bat"
 
 # Check if running interactively before executing further commands
 [[ $- != *i* ]] && return

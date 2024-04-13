@@ -9,7 +9,7 @@ require('mason-lspconfig').setup({
   -- Replace the language servers listed here
   -- with the ones you want to install
   ensure_installed = {
-	  'tsserver', 'jdtls', 'clangd', 'bashls', 'cssls',
+	  'tsserver', 'gopls', 'jdtls', 'clangd', 'bashls', 'cssls',
 	  'html', 'yamlls', 'zls', 'taplo', 'jsonls', 'intelephense', 'lua_ls',
 	  'rust_analyzer', 'kotlin_language_server' , 'vimls',},
   handlers = {

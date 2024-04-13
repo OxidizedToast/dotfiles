@@ -18,6 +18,8 @@ input type:keyboard xkb_numlock enabled
 
 # Notifications
 exec mako
+# Makes windows on correct sides
+exec ~/helpful/windows.sh 
 
 #Swayfx
 blur enable
@@ -97,7 +99,8 @@ output * bg ~/Wallpapers/TrainJP.jpg fill
 #
     # Start a terminal
     bindsym $mod+Return exec $term
-    
+
+
     exec superclipboard &
     # clipboard to run in background
     # ###
