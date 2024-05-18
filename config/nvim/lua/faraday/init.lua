@@ -13,6 +13,13 @@ vim.o.expandtab = true  -- Use spaces instead of tabs
 vim.o.smarttab = true
 
 
+-- Settings for godot
+local projectfile = vim.fn.getcwd() .. '/project.godot'
+if projectfile then
+  vim.fn.serverstart './godothost'
+end
+
+
 -- Turn off mouse & Arrow Keys
 vim.o.mouse = ''
 -- Arrow Keys

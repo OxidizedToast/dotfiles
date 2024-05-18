@@ -101,7 +101,7 @@ output * bg ~/Wallpapers/TrainJP.jpg fill
     bindsym $mod+Return exec $term
 
 
-    exec superclipboard &
+#    exec superclipboard &
     # clipboard to run in background
     # ###
     # Not fully working atm
