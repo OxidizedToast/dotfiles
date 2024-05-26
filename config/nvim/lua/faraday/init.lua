@@ -1,6 +1,5 @@
 --Adds files (remap)
 require("faraday.remap")
---require("lazy.nvim").setup(plugins, opts)
 
 -- Tabbing
 -- Enable true tab behavior
@@ -11,14 +10,6 @@ vim.o.expandtab = true  -- Use spaces instead of tabs
 
 -- Enable tab key to insert spaces instead of tab characters
 vim.o.smarttab = true
-
-
--- Settings for godot
-local projectfile = vim.fn.getcwd() .. '/project.godot'
-if projectfile then
-  vim.fn.serverstart './godothost'
-end
-
 
 -- Turn off mouse & Arrow Keys
 vim.o.mouse = ''

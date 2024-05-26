@@ -13,8 +13,13 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-  use "savq/melange-nvim"
-
+-- Colorscheme
+--  use "savq/melange-nvim"
+  use {
+    "rebelot/kanagawa.nvim",
+    theme = "wave",
+    background = { dark = "wave"},
+  }
   use 'nvim-tree/nvim-web-devicons'
   use {
     'nvim-lualine/lualine.nvim',

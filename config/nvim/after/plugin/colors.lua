@@ -1,6 +1,6 @@
 function ColorMyPencils(color) 
   vim.opt.termguicolors = true
-  color = color or "melange"
+  color = color or "kanagawa-wave"
   vim.cmd.colorscheme(color)
 
 -- Uncomment to make background transparent 

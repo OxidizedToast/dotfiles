@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/faraday/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/faraday/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/faraday/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -108,11 +113,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/faraday/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["melange-nvim"] = {
-    loaded = true,
-    path = "/home/faraday/.local/share/nvim/site/pack/packer/start/melange-nvim",
-    url = "https://github.com/savq/melange-nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
