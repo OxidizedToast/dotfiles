@@ -9,7 +9,7 @@ require('mason-lspconfig').setup({
   -- Replace the language servers listed here
   -- with the ones you want to install
   ensure_installed = {
-	  'tsserver', 'intelephense', 'cssmodules_ls', 'csharp_ls', 'bashls',
+	  'tsserver', 'intelephense', 'css_variables', 'csharp_ls', 'bashls', 'gopls',
 	  'html', 'yamlls', 'lua_ls',
 	   },
   handlers = {

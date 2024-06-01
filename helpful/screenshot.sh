@@ -35,5 +35,9 @@ else
     if [ "$PWD" != "$HOME/ScreenShots" ]; then
         mv "$file" "$HOME/ScreenShots/"
         echo "File moved to $HOME/ScreenShots"
-    fi
+    else
+        mkdir $HOME/ScreenShots
+        mv "$file" "$HOME/Screenshots/"
+        echo "Created ScreenShots Directory"
+        echo "Moved file to $HOME/ScreenShots"
 fi

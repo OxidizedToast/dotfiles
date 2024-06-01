@@ -13,6 +13,8 @@ plugins=(
 # Set default editor
 export EDITOR="nvim"
 export VISUAL="nvim"
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
 
 # For java windows
 #export _JAVA_AWT_WM_NONREPARENTING=1

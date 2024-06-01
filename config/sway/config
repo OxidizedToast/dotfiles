@@ -16,6 +16,16 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 # Number lock
 input type:keyboard xkb_numlock enabled
 
+# Language Settings For Keyboard
+# English and Latin American Spanish
+
+input * {
+
+  xkb_layout us,latam
+  xkb_options grp:rctrl_toggle
+
+}
+
 # Notifications
 exec mako
 # Makes windows on correct sides
@@ -30,9 +40,8 @@ shadows enable
 # Curves windows & Can be any number
 corner_radius 10
 
-
 #Font
-font pango:JetBrains Mono 9
+font pango:JetBrains Mono Nerd 9
 
 ### Variables
 #
