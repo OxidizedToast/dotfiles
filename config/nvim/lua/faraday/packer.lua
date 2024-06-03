@@ -16,9 +16,7 @@ return require('packer').startup(function(use)
 -- Colorscheme
 --  use "savq/melange-nvim"
   use {
-    "rebelot/kanagawa.nvim",
-    theme = "wave",
-    background = { dark = "wave"},
+    "sts10/vim-pink-moon",
   }
   use 'nvim-tree/nvim-web-devicons'
   use {

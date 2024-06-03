@@ -3,9 +3,12 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="jaischeema"
+ZSH_THEME="bira"
 plugins=(
   git
+  rust
+  sudo
+
   colored-man-pages
 )
 
@@ -13,8 +16,7 @@ plugins=(
 # Set default editor
 export EDITOR="nvim"
 export VISUAL="nvim"
-export DOTNET_ROOT=$HOME/.dotnet
-export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
+export SUDO_EDITOR="nvim"
 
 # For java windows
 #export _JAVA_AWT_WM_NONREPARENTING=1
