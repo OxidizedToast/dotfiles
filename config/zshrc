@@ -12,11 +12,11 @@ plugins=(
   colored-man-pages
 )
 
-
 # Set default editor
 export EDITOR="nvim"
 export VISUAL="nvim"
 export SUDO_EDITOR="nvim"
+alias vim="nvim"
 
 # For java windows
 export _JAVA_AWT_WM_NONREPARENTING=1
@@ -30,26 +30,30 @@ alias status_bt="systemctl status bluetooth.service"
 alias steam="flatpak run com.valvesoftware.Steam &"
 alias rgb="openrgb &"
 alias unixp="clear ; neofetch"
-alias vim="nvim"
-# swaylock-effects
-alias lock="swaylock --clock --effect-blur 7x5 --fade-in 0.3 --indicator --grace 2.5 --screenshots --ring-color bb00cc"
-alias img="sxiv"
-alias video="vlc"
-alias audio="~/helpful/audioControl.sh"
-alias ss="~/helpful/screenshot.sh"
-alias ms="~/helpful/getMcShots.sh"
 #alias clock="peaclock"
 #alias lz="eza --icons -F -l"
 alias windows="~/helpful/windows.sh"
 alias cat="bat"
+
+# Github
+alias getDots="clear ; git clone https://github.com/faraday22/dotfiles"
+alias rmDots="clear ; cd ~ ; rm -rf dotfiles"
 alias lg="lazygit"
+
+# swaylock-effects
+alias lock="swaylock --clock --effect-blur 7x5 --fade-in 0.3 --indicator --grace 2.5 --screenshots --ring-color bb00cc"
+
+# Media Types
+alias img="sxiv"
+alias video="vlc"
+alias audio="~/helpful/audioControl.sh"
+# Screenshots
+alias ss="~/helpful/screenshot.sh"
+alias ms="~/helpful/getMcShots.sh"
 
 # Check if running interactively before executing further commands
 [[ $- != *i* ]] && return
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-
-
-
 
 source $ZSH/oh-my-zsh.sh
