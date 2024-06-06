@@ -1,9 +1,12 @@
 { 
     "layer": "top",
     "position": "top",
-    "modules-left": ["sway/workspaces"],
+    "modules-left": ["custom/arch-logo", "sway/workspaces"],
     "modules-center": ["sway/window"],
     "modules-right": ["battery", "clock"],
+    "custom/arch-logo": {
+      "format": " 󰣇 "
+    },
     "sway/window": {
         "max-length": 50
     },

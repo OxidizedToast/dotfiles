@@ -11,6 +11,8 @@
     font-family: 'JetBrains Mono Nerd';
 }
 
+/* Logo from https://aur.archlinux.org/packages/ttf-font-logos */
+
 #waybar {
     background: #1d2021;
     color: #fdf1c7;

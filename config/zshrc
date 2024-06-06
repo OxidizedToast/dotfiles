@@ -19,19 +19,20 @@ export VISUAL="nvim"
 export SUDO_EDITOR="nvim"
 
 # For java windows
-#export _JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Bluetooth
-#alias start_bluetooth="sudo systemctl start bluetooth && sudo systemctl enable bluetooth"
-#alias stop_bluetooth="sudo systemctl stop bluetooth && sudo systemctl disable bluetooth"
-
+alias start_bt="sudo systemctl start bluetooth && sudo systemctl enable bluetooth"
+alias stop_bt="sudo systemctl stop bluetooth && sudo systemctl disable bluetooth"
+alias status_bt="systemctl status bluetooth.service"
 
 # Custom Aliases
 alias steam="flatpak run com.valvesoftware.Steam &"
 alias rgb="openrgb &"
 alias unixp="clear ; neofetch"
 alias vim="nvim"
-alias lock="swaylock"
+# swaylock-effects
+alias lock="swaylock --clock --effect-blur 7x5 --fade-in 0.3 --indicator --grace 2.5 --screenshots --ring-color bb00cc"
 alias img="sxiv"
 alias video="vlc"
 alias audio="~/helpful/audioControl.sh"
