@@ -11,10 +11,6 @@ function ColorMyPencils(color)
   vim.api.nvim_command("highlight LineNr guibg=none")
   vim.api.nvim_command("highlight SignColumn guibg=none")
 
-  -- Set transparency for relative number lines
-  vim.api.nvim_command("highlight CursorLineNr guibg=none")
-
-
 end
 
 ColorMyPencils()

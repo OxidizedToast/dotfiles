@@ -7,10 +7,16 @@ ZSH_THEME="bira"
 plugins=(
   git
   rust
+  #tmux
   sudo
-
+#  thefuck
   colored-man-pages
 )
+
+
+#Tmux oh-my-zsh plugin
+ZSH_TMUX_AUTOSTART=true
+
 
 # Set default editor
 export EDITOR="nvim"
@@ -20,6 +26,10 @@ alias vim="nvim"
 
 # For java windows
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+# Updates
+alias updateP="sudo pacman -Syu"
+alias updateY="yay -Syu"
 
 # Bluetooth
 alias start_bt="sudo systemctl start bluetooth && sudo systemctl enable bluetooth"
@@ -31,12 +41,12 @@ alias steam="flatpak run com.valvesoftware.Steam &"
 alias rgb="openrgb &"
 alias unixp="clear ; neofetch"
 #alias clock="peaclock"
-#alias lz="eza --icons -F -l"
+alias lz="eza --icons"
 alias windows="~/helpful/windows.sh"
 alias cat="bat"
 
 # Github
-alias getDots="clear ; git clone https://github.com/faraday22/dotfiles"
+alias getDots="clear ; git clone https://github.com/faraday22/dotfiles ; cd dotfiles"
 alias rmDots="clear ; cd ~ ; rm -rf dotfiles"
 alias lg="lazygit"
 
@@ -53,7 +63,6 @@ alias ms="~/helpful/getMcShots.sh"
 
 # Check if running interactively before executing further commands
 [[ $- != *i* ]] && return
-alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 source $ZSH/oh-my-zsh.sh

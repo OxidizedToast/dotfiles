@@ -40,4 +40,5 @@ else
         mv "$file" "$HOME/Screenshots/"
         echo "Created ScreenShots Directory"
         echo "Moved file to $HOME/ScreenShots"
+    fi
 fi

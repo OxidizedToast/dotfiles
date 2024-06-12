@@ -10,7 +10,7 @@ require('mason-lspconfig').setup({
   -- with the ones you want to install
   ensure_installed = {
 	  'tsserver', 'intelephense', 'css_variables', 'csharp_ls', 'bashls', 'gopls',
-	  'html', 'yamlls',
+	  'html', 'clangd', 'omnisharp_mono', 'zls','lua_ls', 'yamlls',
 	   },
   handlers = {
     lsp_zero.default_setup,
