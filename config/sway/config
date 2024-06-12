@@ -17,11 +17,11 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 input type:keyboard xkb_numlock enabled
 
 # Language Settings For Keyboard
-# English and Latin American Spanish
+# English, Latin American Spanish, and Italian
 
 input * {
 
-  xkb_layout us,latam
+  xkb_layout us, latam, it
   xkb_options grp:rctrl_toggle
 
 }

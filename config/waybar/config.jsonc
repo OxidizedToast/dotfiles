@@ -3,7 +3,12 @@
     "position": "top",
     "modules-left": ["custom/arch-logo", "sway/workspaces"],
     "modules-center": ["sway/window"],
-    "modules-right": ["battery", "clock"],
+    "modules-right": ["custom/language", "battery", "clock"],
+    "custom/language": { 
+      "exec": "~/helpful/current_layout.sh",
+      "interval": 1,
+      "format": "{}" 
+    },
     "custom/arch-logo": {
       "format": " 󰣇 "
     },
@@ -12,7 +17,7 @@
     },
     "battery": {    
         "format": "{icon}   {capacity}% ",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [" ", " ", " ", " ", " "]
     },
     "clock": {
         "format": "  {:%H:%M} ",
