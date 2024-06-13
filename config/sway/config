@@ -21,7 +21,7 @@ input type:keyboard xkb_numlock enabled
 
 input * {
 
-  xkb_layout us, latam, it
+  xkb_layout us,latam,it
   xkb_options grp:rctrl_toggle
 
 }
