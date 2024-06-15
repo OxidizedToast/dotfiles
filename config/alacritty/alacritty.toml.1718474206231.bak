@@ -1,6 +1,6 @@
 live_config_reload = true
 import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/Tokyonight_Storm.toml"
+  "/usr/lib/node_modules/alacritty-themes/themes/Gruvbox-Dark.toml"
 ]
 
 [font.bold]

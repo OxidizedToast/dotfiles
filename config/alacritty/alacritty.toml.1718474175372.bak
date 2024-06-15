@@ -1,7 +1,4 @@
 live_config_reload = true
-import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/Tokyonight_Storm.toml"
-]
 
 [font.bold]
 family = "JetBrains Mono Nerd Font"
@@ -25,16 +22,17 @@ key = "Return"
 mods = "Control|Shift"
 
 [scrolling]
-history = 10_000
+history = 10000
 
 [window]
 opacity = 0.6
 blur = true
 
-  [window.class]
-  general = "Alacritty"
-  instance = "Alacritty"
 
-  [window.padding]
-  x = 5
-  y = 5
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5
