@@ -33,7 +33,7 @@ exec ~/helpful/windows.sh
 
 #Swayfx
 blur enable
-blur_passes 2
+blur_passes 1
 
 shadows enable
 
@@ -66,7 +66,7 @@ set $menu wofi --show run
 
 
 #Wallpaper Setting
-output * bg ~/Wallpapers/TrainJP.jpg fill
+output * bg ~/Wallpapers/a_gas_station_with_purple_lights.jpg fill
 
 #
 # Example configuration:
