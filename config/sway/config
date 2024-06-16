@@ -16,15 +16,21 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 # Number lock
 input type:keyboard xkb_numlock enabled
 
+
+#Wallpaper Setting
+output * bg ~/Wallpapers/Cars/Nissan-Silvia-s15.jpg fill
+
 # Language Settings For Keyboard
-# English, Latin American Spanish, and Italian
+# English, Latin American Spanish
 
 input * {
 
-  xkb_layout us,latam,it
+  xkb_layout us,latam
   xkb_options grp:rctrl_toggle
 
 }
+
+
 
 # Notifications
 exec mako
@@ -63,11 +69,6 @@ set $menu wofi --show run
 
 ### Output configuration
 #
-
-
-#Wallpaper Setting
-output * bg ~/Wallpapers/a_gas_station_with_purple_lights.jpg fill
-
 #
 # Example configuration:
 #
