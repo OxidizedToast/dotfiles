@@ -13,6 +13,7 @@ require('mason-lspconfig').setup({
 	  'lua_ls',
     'clangd',
     'bashls',
+    'zls',
 	   },
   handlers = {
     lsp_zero.default_setup,

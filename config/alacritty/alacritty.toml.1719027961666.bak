@@ -1,6 +1,6 @@
 live_config_reload = true
 import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/Tokyonight_Night.toml"
+  "/usr/lib/node_modules/alacritty-themes/themes/Chalk.light.toml"
 ]
 
 [font.bold]
@@ -28,7 +28,7 @@ mods = "Control|Shift"
 history = 10_000
 
 [window]
-opacity = 0.4
+opacity = 0.6
 blur = true
 
   [window.class]
