@@ -10,6 +10,8 @@ require('mason-lspconfig').setup({
   -- with the ones you want to install
   ensure_installed = {
 	  'gopls',
+    'perlnavigator',
+    'pyright',
 	  'lua_ls',
     'clangd',
     'bashls',
