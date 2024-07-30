@@ -18,7 +18,7 @@ input type:keyboard xkb_numlock enabled
 
 
 #Wallpaper Setting
-output * bg ~/Wallpapers/Cities/skyline.jpg fill
+output * bg ~/Wallpapers/Cars/painted_car.jpg fill
 
 # Language Settings For Keyboard
 # English, Latin American Spanish

@@ -30,9 +30,9 @@ alias updateP="sudo pacman -Syu"
 alias updateY="yay -Syu"
 
 # Bluetooth
-alias start_bt="sudo systemctl start bluetooth && sudo systemctl enable bluetooth"
-alias stop_bt="sudo systemctl stop bluetooth && sudo systemctl disable bluetooth"
-alias status_bt="systemctl status bluetooth.service"
+alias start_bt="sudo systemctl enable bluetooth ; sudo systemctl start bluetooth ; bluetoothctl"
+alias stop_bt="sudo systemctl stop bluetooth"
+alias status_bt="systemctl status bluetooth"
 
 # Custom Aliases
 #alias steam="flatpak run com.valvesoftware.Steam &"
@@ -43,6 +43,7 @@ alias windows="~/helpful/windows.sh"
 alias cat="bat"
 alias anime="ani-cli"
 alias lz="eza --icons"
+alias ls="eza --icons"
 alias cd="z"
 
 # Github
