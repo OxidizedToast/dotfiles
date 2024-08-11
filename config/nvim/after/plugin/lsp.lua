@@ -11,6 +11,9 @@ require('mason-lspconfig').setup({
   ensure_installed = {
 	  'gopls',
     'perlnavigator',
+    'kotlin_language_server',
+    'tsserver',
+    'jdtls',
     'rust_analyzer',
     'pyright',
 	  'lua_ls',
