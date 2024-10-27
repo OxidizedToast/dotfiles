@@ -2,18 +2,15 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="linuxonly"
 plugins=(
-  git
-  rust
-  #tmux
   sudo
 #  thefuck
   colored-man-pages
 )
 
-
 #Tmux oh-my-zsh plugin
 #ZSH_TMUX_AUTOSTART=true
-
+export KDE_SESSION_VERSION=5
+export KDE_SESSION_TIMEOUT=0
 
 # Set default editor
 export EDITOR="nvim"
@@ -61,6 +58,9 @@ alias audio="~/helpful/audioControl.sh"
 # Screenshots
 alias ss="~/helpful/screenshot.sh"
 alias ms="~/helpful/getMcShots.sh"
+
+
+export PATH="$HOME/.local/share/gem/ruby/3.2.0/bin:$PATH"
 
 # Check if running interactively before executing further commands
 [[ $- != *i* ]] && return

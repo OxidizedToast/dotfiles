@@ -1,6 +1,6 @@
 function ColorMyPencils(color) 
   vim.opt.termguicolors = true
-  color = color or "pink-moon"
+  color = color or "dracula"
   vim.cmd.colorscheme(color)
 
   -- Makes background transparent 

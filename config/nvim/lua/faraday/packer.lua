@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
 -- Colorscheme
   use {
     "sts10/vim-pink-moon",
+    "maxmx03/dracula.nvim",
   }
   use 'nvim-tree/nvim-web-devicons'
   use {
