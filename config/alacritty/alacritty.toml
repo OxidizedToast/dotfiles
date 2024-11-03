@@ -1,6 +1,6 @@
-live_config_reload = true
-import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/Tokyonight_Night.toml"
+general.live_config_reload = true
+general.import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Citylights.toml"
 ]
 
 [font.bold]
