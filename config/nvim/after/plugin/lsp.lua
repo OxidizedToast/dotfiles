@@ -10,6 +10,7 @@ require('mason-lspconfig').setup({
   -- with the ones you want to install
   ensure_installed = {
 	  'gopls',
+    'kotlin_language_server',
     'pyright',
 	  'lua_ls',
     'clangd',
