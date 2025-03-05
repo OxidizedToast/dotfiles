@@ -1,12 +1,17 @@
 #
 # ~/.bashrc
 #
+export PATH="$HOME/.local/bin:$PATH"
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 
 alias unixp="clear ; neofetch"
 
 # Custom Alias's
+alias vi="nvim"
 alias vim="nvim"
 alias lock="swaylock"
+alias hx="helix"
 #edit file
 alias ef="fzf-tmux -p | xargs nvim"
 #view img
@@ -20,14 +25,16 @@ alias Note="~/helpful/note.sh"
 alias ms="~/helpful/getMcShots.sh"
 alias mlogin="~/personal/AutoMCLog/main.sh"
 alias clock="peaclock"
+alias ls="eza --icons"
+alias cat="bat"
+eval "$(zoxide init bash)"
+alias cd="z"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 export VISUAL="nvim"
 export EDITOR="nvim"
-

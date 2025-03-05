@@ -1,6 +1,6 @@
-
 [general]
 live_config_reload = true
+
 import = [ "/usr/lib/node_modules/alacritty-themes/themes/Muse.toml" ]
 
 [font.bold]

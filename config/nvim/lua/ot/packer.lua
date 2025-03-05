@@ -15,7 +15,6 @@ return require('packer').startup(function(use)
     }
 -- Colorscheme
   use {
-    "sts10/vim-pink-moon",
     "maxmx03/dracula.nvim",
   }
   use 'nvim-tree/nvim-web-devicons'
@@ -44,6 +43,21 @@ return require('packer').startup(function(use)
       {'williamboman/mason.nvim'},
       {'williamboman/mason-lspconfig.nvim'},
 
+      -- Formating
+      use {
+        "stevearc/conform.nvim",
+        config = function()
+          require("conform").setup({
+            formatters_by_ft = {
+              cpp = { "clang_format" },
+              c = { "clang_format" },
+            },
+            format_on_save = {
+              timeout_ms = 500,
+            },
+          })
+        end
+      },
       -- Autocompletion
       {'hrsh7th/nvim-cmp'},
       {'hrsh7th/cmp-nvim-lsp'},
