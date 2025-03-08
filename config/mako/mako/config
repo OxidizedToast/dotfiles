@@ -8,3 +8,7 @@ border-color=#fe8019
 text-color=#d5c4a1
 actions=0
 default-timeout=5000
+[app-name=wp-vol]
+layer=overlay
+history=0
+anchor=top-center

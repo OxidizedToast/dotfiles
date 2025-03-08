@@ -4,11 +4,6 @@
     "modules-left": ["custom/arch-logo", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["custom/language", "battery", "clock"],
-    "custom/language": { 
-      "exec": "~/helpful/current_layout.sh",
-      "interval": 1,
-      "format": "{}" 
-    },
     "custom/arch-logo": {
       "format": " 󰣇 "
     },
