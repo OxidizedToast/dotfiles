@@ -1,0 +1,19 @@
+[language-server.gopls]
+command = "gopls"
+
+[[language]]
+name = "go"
+
+[language-server.basedpyright]
+command = "basedpyright"
+
+[[language]]
+name = "python"
+
+[keys.normal]
+"space f" = ":format"
+"space r" = ":lsp-references"
+"space d" = ":lsp-definition"
+"space a" = ":lsp-code-action"
+
+ 
