@@ -10,6 +10,16 @@ command = "basedpyright"
 [[language]]
 name = "python"
 
+
+[[language]]
+name = "perl"
+language-servers = ["perlpls"]
+formatter = { command = "perltidy", args = ["-st"] }
+
+[language-server.perlpls]
+command = "perl"
+args = ["-MPerl::LanguageServer", "-e", "Perl::LanguageServer::run", "--", "--port", "13603", "--nostdio"]
+
 [keys.normal]
 "space f" = ":format"
 "space r" = ":lsp-references"

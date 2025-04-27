@@ -44,20 +44,7 @@ return require('packer').startup(function(use)
       {'williamboman/mason-lspconfig.nvim'},
 
       -- Formating
-      use {
-        "stevearc/conform.nvim",
-        config = function()
-          require("conform").setup({
-            formatters_by_ft = {
-              cpp = { "clang_format" },
-              c = { "clang_format" },
-            },
-            format_on_save = {
-              timeout_ms = 500,
-            },
-          })
-        end
-      },
+      {"stevearc/conform.nvim",
       -- Autocompletion
       {'hrsh7th/nvim-cmp'},
       {'hrsh7th/cmp-nvim-lsp'},
@@ -68,9 +55,8 @@ return require('packer').startup(function(use)
       -- Snippets
       {'L3MON4D3/LuaSnip'},
       {'saadparwaiz1/cmp_luasnip'},
-    }
+    },
   }
-
-
+}
 
 end)

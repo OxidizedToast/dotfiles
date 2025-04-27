@@ -3,6 +3,7 @@
 #
 export PATH="$HOME/.local/bin:$PATH"
 export _JAVA_AWT_WM_NONREPARENTING=1
+export PATH="$HOME/.bun/bin:$PATH"
 
 
 alias unixp="clear ; neofetch"
@@ -18,7 +19,7 @@ alias ef="fzf-tmux -p | xargs nvim"
 alias img="sxiv"
 alias video="vlc"
 alias audio="~/helpful/audioControl.sh"
-alias ss="~/helpful/screenshot.sh"
+alias screenshot="~/helpful/screenshot.sh"
 alias dg="~/helpful/doGit.sh"
 alias note="~/helpful/note.sh"
 alias Note="~/helpful/note.sh"
@@ -38,3 +39,9 @@ PS1='[\u@\h \W]\$ '
 
 export VISUAL="nvim"
 export EDITOR="nvim"
+
+PATH="/home/ot/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/ot/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/ot/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/ot/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/ot/perl5"; export PERL_MM_OPT;
