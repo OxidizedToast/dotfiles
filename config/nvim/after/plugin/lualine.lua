@@ -1,7 +1,7 @@
 vim.cmd[[ set guifont=Symbols\ devicons\ Font\ 12 ]]
 
 require('lualine').setup {
-  options = { theme = 'nightfly', icons_enabled = true },
+  options = { theme = 'gruvbox_dark', icons_enabled = true },
   sections = {
     lualine_a = {'mode'},
     lualine_b = {'branch'},
