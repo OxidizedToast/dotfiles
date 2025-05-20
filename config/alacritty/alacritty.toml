@@ -1,7 +1,6 @@
-
 [general]
 live_config_reload = true
-import = [ "/usr/lib/node_modules/alacritty-themes/themes/Muse.toml" ]
+import = [ "/usr/lib/node_modules/alacritty-themes/themes/Kanagawa.toml" ]
 
 [font.bold]
 family = "JetBrains Mono Nerd Font"
