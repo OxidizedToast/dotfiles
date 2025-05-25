@@ -30,7 +30,7 @@ alias ls="eza --icons"
 alias cat="bat"
 eval "$(zoxide init bash)"
 alias cd="z"
-
+alias lg="lazygit"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -39,9 +39,3 @@ PS1='[\u@\h \W]\$ '
 
 export VISUAL="nvim"
 export EDITOR="nvim"
-
-PATH="/home/ot/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/ot/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/ot/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/ot/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/ot/perl5"; export PERL_MM_OPT;
