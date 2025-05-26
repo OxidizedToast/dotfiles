@@ -3,7 +3,6 @@
     --outlineColor: #c5c8c6;
     --textColor: #fdf6e3;
 */
-
 * {
     border: none;
     border-radius: 0;
@@ -12,6 +11,9 @@
 }
 
 /* Logo from https://aur.archlinux.org/packages/ttf-font-logos */
+.layout-emoji {
+  font-family: "JetBrainsMono Nerd Font", "Noto Color Emoji", sans-serif;
+}
 
 #waybar {
     background: #1d2021;
@@ -41,6 +43,10 @@
   background: #393c40;
   border: #1a1a1a;
   padding: 0 3px;
+}
+
+#custom-language {
+  font-family: "Noto Color Emoji";
 }
 
 #custom-arch {
