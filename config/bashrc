@@ -3,14 +3,17 @@
 #
 export PATH="$HOME/.local/bin:$PATH"
 export _JAVA_AWT_WM_NONREPARENTING=1
-export PATH="$HOME/.bun/bin:$PATH"
-
+export PATH="$HOME/.cargo/bin:$PATH"
+### USEFUL CARGO TO INSTALL
+### TOKEI for code counts and rusty-man for documentation
+###
 
 alias unixp="clear ; neofetch"
 
 # Custom Alias's
 alias vi="nvim"
 alias vim="nvim"
+alias rd="rusty-man"
 alias lock="swaylock"
 alias hx="helix"
 #edit file

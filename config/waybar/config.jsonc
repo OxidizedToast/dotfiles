@@ -16,7 +16,6 @@
     "tooltip": false,
     "class": "layout-emoji"
   },
-
   "battery": {
     "format": "{icon}   {capacity}% ",
     "format-icons": [" ", " ", " ", " ", " "]
