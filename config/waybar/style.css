@@ -1,55 +1,109 @@
 /*
   --backgroundColor: #292b2e;
-    --outlineColor: #c5c8c6;
-    --textColor: #fdf6e3;
+  --outlineColor: #c5c8c6;
+  --textColor: #fdf6e3;
 */
+
 * {
     border: none;
     border-radius: 0;
     font-size: 13px;
-    font-family: 'JetBrains Mono Nerd';
+    font-family: 'JetBrains Mono Nerd', monospace;
+    transition: background 0.2s ease;
 }
 
-/* Logo from https://aur.archlinux.org/packages/ttf-font-logos */
-.layout-emoji {
-  font-family: "JetBrainsMono Nerd Font", "Noto Color Emoji", sans-serif;
+#window {
+    background-color: rgba(45, 45, 45, 0.8);
+    color: #fdf1c7;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-weight: 600;
+    margin: 0 10px;
+    -webkit-backdrop-filter: blur(8px);
+}
+
+window#waybar {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
 }
 
 #waybar {
-    background: #1d2021;
+   background: #1d2021;
     color: #fdf1c7;
     opacity: 0.9;
+    padding: 6px 12px;
 }
 
+/* Logo font */
+.layout-emoji {
+    font-family: "JetBrainsMono Nerd Font", "Noto Color Emoji", sans-serif;
+}
+
+/* Workspaces buttons styling */
 #workspaces button {
-  padding: 0 4px;
-  background: transparent;
-  color: #fbf1c7;
-  border-bottom: 2px solid transparent;
+    padding: 0 8px;
+    background-color: rgba(45, 45, 45, 0.8);
+    font-family: 'JetBrains Mono Nerd', monospace;
+    color: #fbf1c7;
+    border-radius: 10px;
+    margin: 0 4px;
+    font-weight: bold;
 }
 
 #workspaces button.focused {
-  background: #181818;
-  border-bottom: 2px solid #d3869b;
+    background-color: rgba(100, 50, 70, 0.9);
+    border: 2px solid #d3869b;
 }
 
 #workspaces button:hover {
-  background: #393c40;
-  border: #1a1a1a;
-  padding: 0 3px;
+    background-color: rgba(80, 80, 80, 0.85);
 }
 
+/* Clock styling */
 #clock {
-  background: #393c40;
-  border: #1a1a1a;
-  padding: 0 3px;
+    background-color: rgba(45, 45, 45, 0.8);
+    color: #fdf1c7;
+    padding: 4px 12px;
+    margin: 0 6px;
+    border-radius: 12px;
+    font-weight: 600;
 }
 
+/* Custom modules styling */
 #custom-language {
-  font-family: "Noto Color Emoji";
+    font-family: "Noto Color Emoji", sans-serif;
+    background-color: rgba(45, 45, 45, 0.8);
+    padding: 4px 10px;
+    margin-left: 6px;
+    border-radius: 12px;
+    color: #fdf1c7;
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(8px);
 }
 
 #custom-arch {
-  color: white;
-  background: #e91e63;
+    color: white;
+    background-color: rgba(233, 30, 99, 0.8); /* keep pink but darkened with opacity */
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin-left: 6px;
+    font-weight: bold;
+    -webkit-backdrop-filter: blur(8px);
+}
+#battery {
+    background-color: rgba(45, 45, 45, 0.8);
+    color: #fdf1c7;
+    padding: 4px 10px;
+    margin-left: 6px;
+    border-radius: 12px;
+    font-weight: 600;
+    -webkit-backdrop-filter: blur(8px);
+}
+/* Optional: Add backdrop blur for a frosted glass effect (requires compositor with blur) */
+#workspaces button,
+#clock,
+#custom-arch {
+    -webkit-backdrop-filter: blur(8px);
 }
