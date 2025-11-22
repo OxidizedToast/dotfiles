@@ -5,6 +5,7 @@ require'nvim-treesitter.configs'.setup {
   'rust',
   'python',
   'go',
+  'c_sharp',
   'cpp',
   'bash'},
 

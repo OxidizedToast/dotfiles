@@ -36,6 +36,7 @@ alias cat="bat"
 eval "$(zoxide init bash)"
 alias cd="z"
 alias lg="lazygit"
+alias wpc="~/helpful/change_wp.sh"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

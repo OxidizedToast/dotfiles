@@ -25,6 +25,7 @@ layout=$(
 case "$layout" in
   "English (US)") echo "🇺🇸 English" ;;
   "Spanish (Latin American)") echo "🇲🇽 Spanish" ;;
+  "Italian") echo "🇮🇹 Italian" ;;
   *) echo "$layout" ;;
 esac
 

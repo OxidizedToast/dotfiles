@@ -1,2 +1,0 @@
-Alacritty-themes tool was used
-it was found on AUR
