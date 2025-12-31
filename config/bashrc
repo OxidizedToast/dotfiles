@@ -5,6 +5,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.config/emacs/bin:$PATH"
+export PATH="$PATH:$(go env GOPATH)/bin"
 ### USEFUL CARGO TO INSTALL
 ### TOKEI for code counts and rusty-man for documentation
 ###
@@ -45,3 +46,9 @@ PS1='[\u@\h \W]\$ '
 
 export VISUAL="nvim"
 export EDITOR="nvim"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH="/home/ot/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/ot/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
