@@ -13,7 +13,7 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "bashls", "clangd", "pyright", "lua_ls", "rust_analyzer",
-          "jsonls", "yamlls", "taplo", "marksman"
+          "jsonls", "yamlls", "taplo", "marksman", "zls"
         },
       })
     end,

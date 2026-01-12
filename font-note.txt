@@ -1,1 +1,0 @@
-The fonts belong in `~/.local/share/fonts`
