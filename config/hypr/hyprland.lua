@@ -27,9 +27,9 @@ hl.monitor({ output = "eDP-1", mode = "1920x1200@60", position = "0x1080", scale
 ---------------------
 
 -- Set programs that you use
-local terminal    = "ghostty"
+local terminal    = "kitty"
 local fileManager = "dolphin"
-local menu        = "hyprlauncher"
+local menu        = "rofi -show drun"
 
 
 -------------------
@@ -90,8 +90,8 @@ hl.config({
         border_size = 3,
 
         col = {
-            active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45 },
-            inactive_border = "rgba(595959aa)",
+            active_border   = { colors = {"rgb(216,29,0)", "rgb(59,1,1)"}, angle = 45 },
+            inactive_border = "rgb(70,2,13)",
         },
 
         -- Set to true to enable resizing windows by clicking and dragging on borders and gaps

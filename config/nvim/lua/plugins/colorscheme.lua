@@ -1,11 +1,11 @@
 return {
   {
-    "rebelot/kanagawa.nvim",
+    "AlphaTechnolog/pywal.nvim",
     config = function()
-      require("kanagawa").setup({
+      require("pywal").setup({
         transparent = true,  -- simple transparent background
       })
-      vim.cmd.colorscheme("kanagawa-dragon")
+      vim.cmd.colorscheme("pywal")
 
       -- make highlights transparent
       vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })

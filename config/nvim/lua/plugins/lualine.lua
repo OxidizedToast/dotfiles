@@ -5,7 +5,7 @@ return {
     config = function()
       require("lualine").setup({
         options = {
-          theme = "gruvbox_dark",  -- use gruvbox dark theme
+          theme = "pywal",  -- use gruvbox dark theme
           component_separators = { left = "", right = "" },
           section_separators = { left = "", right = "" },
           globalstatus = true,  -- make statusline global (Neovim 0.8+)
