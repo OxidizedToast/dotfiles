@@ -20,8 +20,29 @@
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
 font-family = "JetBrainsMonoNL Nerd Font"
-background-opacity = 0.4
-theme = Kanagawa Dragon
+background-opacity = "0.4"
+
+foreground = #96c1dc
+background = #0F0209
+cursor-color = #96c1dc
+
+palette = 0=#0F0209
+palette = 1=#164B72
+palette = 2=#5A4976
+palette = 3=#8F070B
+palette = 4=#A8131B
+palette = 5=#B92A39
+palette = 6=#306693
+palette = 7=#96c1dc
+palette = 8=#69879a
+palette = 9=#164B72
+palette = 10=#5A4976
+palette = 11=#8F070B
+palette = 12=#A8131B
+palette = 13=#B92A39
+palette = 14=#306693
+palette = 15=#96c1dc
+
 
 # window-padding-x = 2
 #

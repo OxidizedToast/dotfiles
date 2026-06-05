@@ -27,7 +27,7 @@ hl.monitor({ output = "eDP-1", mode = "1920x1200@60", position = "0x1080", scale
 ---------------------
 
 -- Set programs that you use
-local terminal    = "kitty"
+local terminal    = "ghostty"
 local fileManager = "dolphin"
 local menu        = "rofi -show drun"
 
